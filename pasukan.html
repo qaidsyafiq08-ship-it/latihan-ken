@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web Gaming & E-Sports - Pasukan</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images (7).jpg">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>INFERNO-X ESPORT</h1>
+        <p class="p-header">Daftarkan pasukan anda untuk pertandingan seterusnya.</p>
+
+    </header>
+
+    <div class="back-row">
+
+        <a class="back-link" href="game.html"><span aria-hidden="true">←</span> Kembali ke game</a>
+
+    </div>
+
+    <main class="reg">
+
+        <div class="registration-heading">
+
+            <p class="section-kicker">PENDAFTARAN PEMAIN</p>
+
+            <h2>Daftar pasukan</h2>
+            <p>Isi maklumat pasukan dan ketua untuk memulakan pendaftaran.</p>
+
+        </div>
+
+        <form class="form">
+
+            <div class="form-grid">
+
+                <div class="form-field">
+
+                    <label for="team-name">Nama pasukan</label>
+                    <input type="text" id="team-name" name="team-name" placeholder="Contoh: Inferno Squad" required>
+
+                </div>
+
+                <div class="form-field">
+
+                    <label for="captain-name">Nama ketua pasukan</label>
+                    <input type="text" id="captain-name" name="captain-name" required>
+
+                </div>
+
+                <div class="form-field">
+
+                    <label for="contact">Nombor WhatsApp</label>
+                    <input type="tel" id="contact" name="contact" placeholder="Contoh: 0123456789" required>
+
+                </div>
+
+                <div class="form-field">
+
+                    <label for="total-members">Jumlah ahli termasuk ketua</label>
+                    <input type="number" id="total-members" name="total-members" min="1" max="10" value="5" required>
+
+                </div>
+
+                <div class="form-field form-field-wide">
+
+                    <label for="team-members">Nama atau ID game ketua pasukan</label>
+                    <textarea id="team-members" name="team-members" rows="4" placeholder="Masukkan nama atau ID ketua pasukan..." required></textarea>
+                    <small>Senaraikan semua ahli termasuk ketua pasukan.</small>
+
+                </div>
+
+            </div>
+
+            <label class="form-consent" for="agree-rules">
+
+                <input type="checkbox" id="agree-rules" name="agree-rules" required>
+                <span>Saya bersetuju mematuhi syarat dan peraturan pertandingan.</span>
+
+            </label>
+
+            <span class="send send-disabled" aria-disabled="true">Semak pendaftaran <span aria-hidden="true">→</span></span>
+
+            <details class="result">
+
+                <summary class="send">Semak pendaftaran <span aria-hidden="true">→</span></summary>
+
+                <div class="success">
+
+                    <h3>Pendaftaran telah berjaya!</h3>
+                    <p>Pengesahan ini hanya paparan. Maklumat belum disimpan ke server.</p>
+
+                    <a class="home-link" href="index2.html">Kembali ke halaman utama</a>
+
+                </div>
+
+            </details>
+
+            <p class="note">Pengesahan ini hanya paparan; sistem penerimaan borang belum disambungkan.</p>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; Hak cipta Web Gaming & E-sport</p>
+        
+    </footer>
+
+</body>
+
+</html>
